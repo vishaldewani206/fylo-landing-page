@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  background: hsl(240, 75%, 98%);
+}
+.mainContainer {
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 90vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.logo {
+  width: 10%;
+}
+.links a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sideImg {
+  width: 100%;
+}
+.img {
+  width: 50%;
+}
+.text {
+  width: 50%;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  line-height: 150%;
+  margin-bottom: 20px;
+  color: hsl(243, 87%, 12%);
+  font-size: 2em;
+}
+.paragraph {
+  color: hsl(243, 87%, 12%);
+}
+.emailBtn {
+  margin-top: 20px;
+}
+.email {
+  width: 50%;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding-left: 10px;
+  color: hsl(238, 22%, 44%);
+  font-size: 1em;
+}
+
+.submit {
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  background: hsl(224, 93%, 58%);
+  color: white;
+  border-radius: 2px;
+}
+.submit:hover {
+  opacity: 0.8;
+}
+.submit:focus {
+  outline: none;
+  opacity: 0.8;
+}
+.submit:active {
+  opacity: 1;
+}
+
+.specialLink {
+  width: 170px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  margin-top: 20px;
+}
+.specialLink:hover {
+  opacity: 0.7;
+}
+.specialLink a {
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+  margin-right: 5px;
+}
+.specialLink span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  width: 75%;
+  height: 80%;
+  padding: 37px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.233);
+  color: hsl(243, 87%, 12%);
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.quoteProfile {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.quoteImg img {
+  margin-bottom: 10px;
+  width: 5%;
+}
+.quoteProfilePic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.quoteProfileName p {
+  font-size: 0.7em;
+  color: hsl(238, 22%, 44%);
+  margin-top: 5px;
+}
+.quoteParagraph {
+  line-height: 170%;
+}
+
+.accessToday {
+  width: 100vw;
+  height: 300px;
+  background: hsl(238, 22%, 44%);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.accessTodayInner {
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accessText {
+  color: white;
+  width: 50%;
+}
+.accessText h1 {
+  margin-bottom: 20px;
+}
+.accessEmail {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.accessEmail form {
+  width: 80%;
+}
+.email2 {
+  width: 95%;
+  height: 50px;
+  margin-right: 10px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: hsl(238, 22%, 44%);
+  font-size: 1em;
+}
+.submit2 {
+  width: 180px;
+  height: 45px;
+  margin-right: 10px;
+  border: none;
+  background: hsl(224, 93%, 58%);
+  color: white;
+  font-size: 1em;
+  border-radius: 2px;
+}
+.submit2:hover {
+  opacity: 0.8;
+}
+.submit2:focus {
+  outline: none;
+  opacity: 0.8;
+}
+.submit2:active {
+  opacity: 1;
+}
+footer {
+  width: 100vw;
+  height: 400px;
+  background: hsl(243, 87%, 12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInner {
+  width: 90vw;
+  color: white;
+}
+.footerLogo img {
+  width: 10%;
+  margin-bottom: 20px;
+}
+.contact1 {
+  display: flex;
+  margin-top: 20px;
+}
+.contact1 img {
+  margin-right: 20px;
+}
+.footerOther {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+.footerLinks a {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.footerLinks a:hover {
+  color: hsl(238, 22%, 44%);
+}
+
+.icon {
+  color: hsl(208, 11%, 55%);
+  margin-right: 30px;
+
+  width: 35px;
+  height: 35px;
+  border: 2px solid hsl(208, 11%, 55%);
+  border-radius: 50px;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_soical {
+  height: 30%;
+  margin-top: 20px;
+  display: flex;
+}
+.icon:hover {
+  color: hsl(170, 45%, 43%);
+  border-color: hsl(170, 45%, 43%);
+}
+.mob {
+  display: none;
+}
+@media screen and (max-width: 786px) {
+  .container {
+    display: none;
+  }
+  .mob {
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    width: 90%;
+  }
+  .text {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header {
+    height: 100%;
+  }
+  .links a {
+    margin-left: 10px;
+    font-size: 0.7em;
+  }
+  .logo {
+    width: 30%;
+  }
+  .submit,
+  .email {
+    width: 100%;
+  }
+  .email {
+    margin-bottom: 10px;
+  }
+  .footerOther {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 1.2em;
+  }
+  .h {
+    font-size: 1.4em;
+  }
+  .paragraph2 {
+    text-align: left;
+  }
+  .accessToday {
+    height: 100%;
+  }
+  .accessTodayInner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .accessText {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .accessText h1 {
+    font-size: 1.3em;
+  }
+  .accessText p {
+    margin-bottom: 10px;
+  }
+  .quote {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 0.85em;
+  }
+  .accessEmail {
+    align-items: center;
+    width: 100%;
+  }
+  .email2 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .submit2 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  footer {
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .footerLogo img {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .contact {
+    margin-bottom: 20px;
+  }
+  .contact1 img {
+    margin-right: 15px;
+  }
+  .footerLinks {
+    margin-bottom: 20px;
+  }
+  .footerApps {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+}
